@@ -12,6 +12,8 @@ protocol NetworkManagerConforming {
     func downloadSATs(dbn: String) async throws -> [NYCSAT]
 }
 
+
+
 class NetworkManager: NetworkManagerConforming {
     
     let decoder = JSONDecoder()
