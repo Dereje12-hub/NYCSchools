@@ -2,16 +2,21 @@
 //  NYCSchoolsApp.swift
 //  NYCSchools
 //
-//  Created by Consultant on 3/16/23.
+//  Created by Dereje Gudeta on 3/16/23.
 //
 
 import SwiftUI
 
+var isIpad: Bool {
+    UIDevice.current.userInterfaceIdiom == .pad
+}
+
 @main
 struct NYCSchoolsApp: App {
+    let appController = ApplicationController()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationContainerView(schoolListViewModel: appController.schoolListViewModel)
         }
     }
 }

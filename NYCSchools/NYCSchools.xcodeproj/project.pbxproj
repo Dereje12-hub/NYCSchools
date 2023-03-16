@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		026BC5D729C35CFD0077E240 /* NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BC5D629C35CFD0077E240 /* NYCSchoolsApp.swift */; };
-		026BC5D929C35CFD0077E240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BC5D829C35CFD0077E240 /* ContentView.swift */; };
 		026BC5DB29C35CFF0077E240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026BC5DA29C35CFF0077E240 /* Assets.xcassets */; };
 		026BC5DE29C35CFF0077E240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026BC5DD29C35CFF0077E240 /* Preview Assets.xcassets */; };
 		026BC5E829C35CFF0077E240 /* NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BC5E729C35CFF0077E240 /* NYCSchoolsTests.swift */; };
 		026BC5F229C35CFF0077E240 /* NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BC5F129C35CFF0077E240 /* NYCSchoolsUITests.swift */; };
 		026BC5F429C35CFF0077E240 /* NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BC5F329C35CFF0077E240 /* NYCSchoolsUITestsLaunchTests.swift */; };
+		026BC60129C35DD20077E240 /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BC60029C35DD20077E240 /* ApplicationController.swift */; };
+		026BC60329C35DE10077E240 /* NavigationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BC60229C35DE10077E240 /* NavigationContainerView.swift */; };
+		02888E1729C38D0500F4289A /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E1529C38D0500F4289A /* Box.swift */; };
+		02888E1829C38D0500F4289A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E1629C38D0500F4289A /* LoadingView.swift */; };
+		02888E1D29C38D1600F4289A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E1A29C38D1600F4289A /* NetworkManager.swift */; };
+		02888E1E29C38D1600F4289A /* NYCSAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E1B29C38D1600F4289A /* NYCSAT.swift */; };
+		02888E1F29C38D1600F4289A /* NYCSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E1C29C38D1600F4289A /* NYCSchool.swift */; };
+		02888E2529C38D1F00F4289A /* FlippableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E2129C38D1F00F4289A /* FlippableCardView.swift */; };
+		02888E2629C38D1F00F4289A /* DetailCardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E2229C38D1F00F4289A /* DetailCardBack.swift */; };
+		02888E2729C38D1F00F4289A /* DetailCardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E2329C38D1F00F4289A /* DetailCardFront.swift */; };
+		02888E2829C38D1F00F4289A /* SATScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E2429C38D1F00F4289A /* SATScoresView.swift */; };
+		02888E2D29C38D2800F4289A /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E2A29C38D2800F4289A /* SchoolListViewModel.swift */; };
+		02888E2E29C38D2800F4289A /* SchoolCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E2B29C38D2800F4289A /* SchoolCellView.swift */; };
+		02888E2F29C38D2800F4289A /* SchoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02888E2C29C38D2800F4289A /* SchoolListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,6 @@
 /* Begin PBXFileReference section */
 		026BC5D329C35CFD0077E240 /* NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCSchools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		026BC5D629C35CFD0077E240 /* NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsApp.swift; sourceTree = "<group>"; };
-		026BC5D829C35CFD0077E240 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		026BC5DA29C35CFF0077E240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		026BC5DD29C35CFF0077E240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		026BC5E329C35CFF0077E240 /* NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCSchoolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,20 @@
 		026BC5ED29C35CFF0077E240 /* NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCSchoolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		026BC5F129C35CFF0077E240 /* NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		026BC5F329C35CFF0077E240 /* NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		026BC60029C35DD20077E240 /* ApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
+		026BC60229C35DE10077E240 /* NavigationContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationContainerView.swift; sourceTree = "<group>"; };
+		02888E1529C38D0500F4289A /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		02888E1629C38D0500F4289A /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		02888E1A29C38D1600F4289A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		02888E1B29C38D1600F4289A /* NYCSAT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYCSAT.swift; sourceTree = "<group>"; };
+		02888E1C29C38D1600F4289A /* NYCSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYCSchool.swift; sourceTree = "<group>"; };
+		02888E2129C38D1F00F4289A /* FlippableCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippableCardView.swift; sourceTree = "<group>"; };
+		02888E2229C38D1F00F4289A /* DetailCardBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCardBack.swift; sourceTree = "<group>"; };
+		02888E2329C38D1F00F4289A /* DetailCardFront.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCardFront.swift; sourceTree = "<group>"; };
+		02888E2429C38D1F00F4289A /* SATScoresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATScoresView.swift; sourceTree = "<group>"; };
+		02888E2A29C38D2800F4289A /* SchoolListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		02888E2B29C38D2800F4289A /* SchoolCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolCellView.swift; sourceTree = "<group>"; };
+		02888E2C29C38D2800F4289A /* SchoolListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,10 @@
 		026BC5CA29C35CFD0077E240 = {
 			isa = PBXGroup;
 			children = (
+				02888E2929C38D2800F4289A /* School List */,
+				02888E2029C38D1F00F4289A /* School Detail */,
+				02888E1929C38D1600F4289A /* Network */,
+				02888E1429C38D0500F4289A /* Generic */,
 				026BC5D529C35CFD0077E240 /* NYCSchools */,
 				026BC5E629C35CFF0077E240 /* NYCSchoolsTests */,
 				026BC5F029C35CFF0077E240 /* NYCSchoolsUITests */,
@@ -95,7 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				026BC5D629C35CFD0077E240 /* NYCSchoolsApp.swift */,
-				026BC5D829C35CFD0077E240 /* ContentView.swift */,
+				026BC60029C35DD20077E240 /* ApplicationController.swift */,
+				026BC60229C35DE10077E240 /* NavigationContainerView.swift */,
 				026BC5DA29C35CFF0077E240 /* Assets.xcassets */,
 				026BC5DC29C35CFF0077E240 /* Preview Content */,
 			);
@@ -125,6 +156,46 @@
 				026BC5F329C35CFF0077E240 /* NYCSchoolsUITestsLaunchTests.swift */,
 			);
 			path = NYCSchoolsUITests;
+			sourceTree = "<group>";
+		};
+		02888E1429C38D0500F4289A /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				02888E1529C38D0500F4289A /* Box.swift */,
+				02888E1629C38D0500F4289A /* LoadingView.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		02888E1929C38D1600F4289A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				02888E1A29C38D1600F4289A /* NetworkManager.swift */,
+				02888E1B29C38D1600F4289A /* NYCSAT.swift */,
+				02888E1C29C38D1600F4289A /* NYCSchool.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		02888E2029C38D1F00F4289A /* School Detail */ = {
+			isa = PBXGroup;
+			children = (
+				02888E2129C38D1F00F4289A /* FlippableCardView.swift */,
+				02888E2229C38D1F00F4289A /* DetailCardBack.swift */,
+				02888E2329C38D1F00F4289A /* DetailCardFront.swift */,
+				02888E2429C38D1F00F4289A /* SATScoresView.swift */,
+			);
+			path = "School Detail";
+			sourceTree = "<group>";
+		};
+		02888E2929C38D2800F4289A /* School List */ = {
+			isa = PBXGroup;
+			children = (
+				02888E2A29C38D2800F4289A /* SchoolListViewModel.swift */,
+				02888E2B29C38D2800F4289A /* SchoolCellView.swift */,
+				02888E2C29C38D2800F4289A /* SchoolListView.swift */,
+			);
+			path = "School List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +328,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				026BC5D929C35CFD0077E240 /* ContentView.swift in Sources */,
+				026BC60129C35DD20077E240 /* ApplicationController.swift in Sources */,
+				02888E1E29C38D1600F4289A /* NYCSAT.swift in Sources */,
+				02888E2D29C38D2800F4289A /* SchoolListViewModel.swift in Sources */,
+				02888E2629C38D1F00F4289A /* DetailCardBack.swift in Sources */,
+				02888E2529C38D1F00F4289A /* FlippableCardView.swift in Sources */,
+				02888E2E29C38D2800F4289A /* SchoolCellView.swift in Sources */,
+				026BC60329C35DE10077E240 /* NavigationContainerView.swift in Sources */,
+				02888E2829C38D1F00F4289A /* SATScoresView.swift in Sources */,
+				02888E1D29C38D1600F4289A /* NetworkManager.swift in Sources */,
 				026BC5D729C35CFD0077E240 /* NYCSchoolsApp.swift in Sources */,
+				02888E1729C38D0500F4289A /* Box.swift in Sources */,
+				02888E1F29C38D1600F4289A /* NYCSchool.swift in Sources */,
+				02888E2729C38D1F00F4289A /* DetailCardFront.swift in Sources */,
+				02888E2F29C38D2800F4289A /* SchoolListView.swift in Sources */,
+				02888E1829C38D0500F4289A /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
