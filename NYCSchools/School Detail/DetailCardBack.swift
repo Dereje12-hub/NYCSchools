@@ -36,10 +36,10 @@ struct DetailCardBack: View {
                     Text("Math Scores")
                         .font(.system(size: isIpad ? 32.0 : 20.0))
                     
-                    if let satMathScore = schoolListViewModel.satMathScore(sat: sat) {
-                        Text(satMathScore)
+                   
+                        Text(schoolListViewModel.satMathScore(sat: sat))
                             .font(.system(size: isIpad ? 32.0 : 20.0).bold())
-                    }
+                    
                     
                 }
                 .frame(width: width / 3.0)

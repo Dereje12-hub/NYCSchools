@@ -132,16 +132,24 @@ class SchoolListViewModel: ObservableObject {
     }
     
     
-    func satMathScore(sat: NYCSAT) -> String? {
-        return sat.sat_math_avg_score
+    func satMathScore(sat: NYCSAT) -> String {
+        let score = Int(sat.sat_math_avg_score ?? "") ?? 0
+        
+        return "\(score)"
     }
     
-    func satCriticalReadingScore(sat: NYCSAT) -> String? {
-        return sat.sat_critical_reading_avg_score
+    func satCriticalReadingScore(sat: NYCSAT) -> String {
+       
+        let score = Int(sat.sat_critical_reading_avg_score ?? "") ?? 0
+        
+        return "\(score)"
     }
     
-    func satWritingScore(sat: NYCSAT) -> String? {
-        return sat.sat_writing_avg_score
+    func satWritingScore(sat: NYCSAT) -> String {
+       
+        let score = Int(sat.sat_writing_avg_score ?? "") ?? 0
+        
+        return "\(score)"
     }
     
     
